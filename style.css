@@ -20,6 +20,8 @@
   
   /*====  VARIABLES ============================ */
   :root {
+    --size-width: 400px;
+    --size-height: 250px;
     --header-height: 4.5rem;
   
     /* colors */
@@ -45,6 +47,8 @@
     background: var(--body-color);
     -webkit-font-smoothing: antialiased;
   }
+
+  
   
   .title {
     font: 700 1.875rem 'Poppins', sans-serif;
@@ -444,3 +448,5 @@
   #contact ul li i {
     color: var(--base-color);
   }
+
+
