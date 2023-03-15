@@ -1,43 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inspirediem</title>
-    <link rel="stylesheet" href="style.css" />
-    <!--  FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<html lang="pt_BR">
 
-  <body>
-    <header>
-      <h1>Inspirediem</h1>
-      <div>...</div>
-    </header>
-    <main>
-      <section>
-        <img src="" alt="Imagem 1" />
-        <h1>
-          Nosso Artesanato <br />
-          É seu Artesanato ✨
-        </h1>
-        <p>
-          Criamos produtos únicos e de alta qualidade. Seja para presentear
-          alguém especial em sua vida ou adicionar um toque aconchegante e
-          personalizado à sua casa.
-        </p>
-        <a href="">Se Inspire com Crochê !</a>
-      </section>
-      <section></section>
-      <section></section>
-      <section></section>
-    </main>
-    <footer></footer>
-  </body>
+<head>
+  <!-- Page Info -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.8%" />
+  <title>inspirediem</title>
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="assets/fonts/style.css" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Styles -->
+  <link href="light-theme.css" rel="stylesheet" id="theme-link" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <a class="logo" href="#">inspire<span>diem</span>.</a>
+
+      <!-- Menu -->
+
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#about">Sobre</a></li>
+          <li><a class="title" href="#services">Produtos</a></li>
+          <li><a class="title" href="#testimonials">Depoimentos</a></li>
+          <li><a class="title" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+
+      <!-- /menu -->
+      <div class="toggle icon-menu"></div>
+
+      <div class="toggle icon-close"></div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1627972469027-296db464141d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
+            alt="Trabalho de Crochê" />
+        </div>
+        <div class="text">
+          <h2 class="title">
+            Nosso Artesanato <br />
+            É seu Artesanato ✨
+          </h2>
+          <p>
+            Criamos produtos únicos e de alta qualidade. <br />
+            Seja para presentear alguém especial em sua vida ou adicionar um
+            toque aconchegante e personalizado à sua casa.
+          </p>
+          <a class="button" href="#">Se inspire com Crochê !</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container grid">
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1627667539472-75fbc7f4654d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNyb2NoJUMzJUFBfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
+            alt="Criança comendo açaí" />
+        </div>
+        <div class="text">
+          <h2 class="title">Sobre nós</h2>
+          <p>A <strong style="color: #d7239e" >inspirediem</strong> é uma empresa especializada em fabricar produtos de crochê. Temos sempre o proposito de
+            proporcionar aos nossos clientes um lar mais bonito e confortável todos os dias, levando em conta sempre a
+            beleza e qualidade de nossos produtos. <br> <br>
+            Também temos um atendimento qualificado com uma equipe que está
+            sempre pronta a ajudar em qualquer dúvida ou problema. Priorizando sempre a entrega rápida e segura,
+            buscando assim ajudar você nessa missão de decorar sua casa! </p>
+        </div>
+      </div>
+      <div class="divider-2"></div>
+    </section>
+    <div class="divider-2"></div>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Produtos e Serviços</h2>
+          <p class="subtitle"></p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <i class="icon-repeat"></i>
+            <h3 class="title">Sustentabilidade</h3>
+            <p>
+              Trabalhamos com a Linha Amazônia,
+              <strong style="color: #d7239e" >100% Reciclada</strong>. <br />
+              Essa linha deixa nossos trabalhos com cores vívidas e
+              duradouras. Acreditamos que é possivel chegar a um mundo e um
+              lar sustentável com produtos reciclados e com alta qualidade.
+            </p>
+          </div>
+          <div class="card">
+            <i class="icon-truck"></i>
+            <h3 class="title">Entrega</h3>
+            <p>Fazemos nossas entregas via correios após confirmação de pagamento e disponibilizamos o código de
+              rastreio no histórico de sua compra aqui em nossa loja.</p>
+          </div>
+          <div class="card">
+            <i class="icon-pocket"></i>
+            <h3 class="title">Segurança</h3>
+            <p>Se você efetuou a compra conosco, recebeu o produto em perfeitas condições e ainda assim não se sentiu
+              satisfeito, você poderá solicitar o cancelamento e o reembolso do mesmo por meio de nosso suporte no
+              whatsapp</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" id="testimonials">
+      <div class="container swiper">
+        <header>
+          <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Eu recomendo sem dúvidas. Os tapetes ficaram prontos antes
+                  do prazo, o são lindos e o atendimento foi excelente.
+                </p>
+                <cite>
+                  <img src="assets/fotos/10.jpeg" alt="Foto de Jaqueline C" />
+                  Jaqueline C.
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Chegou super rápido ,o atendimento é bom ,e estou
+                  recomendando para todas as amigas.
+                </p>
+                <cite>
+                  <img src="assets/fotos/56.jpeg" alt="Foto de Larissa M" />
+                  Larissa M.
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Para quem gosta de trabalhos de crochê, esse site é uma
+                  referencia, fazem bem feito e nao demoram muito, é de
+                  qualidade, recomendo.
+                </p>
+                <cite>
+                  <img src="assets/fotos/26.jpeg" alt="Fotos de Luana A" />
+                  Luana A.
+                </cite>
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section></section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 class="title">Entre em contato com a gente !</h2>
+          <p>
+            Entre em contato conosco, queremos te escutar, entender e
+            solucionar suas dúvidas, e também te agradeçer por sugestões.
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário"
+            class="button" target="_blank"><i class="icon-send"></i> Entrar em contato</a>
+        </div>
+
+        <div class="links">
+          <ul class="grid">
+            <li><i class="icon-phone"></i> 11 91234-5678</li>
+            <li><i class="icon-map-pin"></i> R. Lorem Ipsum, 123</li>
+            <li><i class="icon-mail"></i> contato@inspirediem.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+  </main>
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home">inspire<span>diem</span>.</a>
+        <p>© 2023 inspirediem.</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+
+      <div class="social grid">
+        <a href="https://instagram.com" target="_blank">
+          <i class="icon-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+          <i class="icon-facebook"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="icon-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main.js -->
+  <script src="main.js"></script>
+</body>
+
 </html>
